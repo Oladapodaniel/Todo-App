@@ -1,0 +1,51 @@
+body {
+    font-family: 'Century Gothic';
+    margin-left: 20px;
+    height: 100%;
+    background-color: gainsboro;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.background_image {
+    background-image: url(header_wallpaper.jpg);
+     filter: blur(2px);
+    -webkit-filter: blur(2px);
+    height: 120px;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+ .background_text {
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+   position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; 
+  width: 80%;
+  padding: 20px;
+  text-align: center;;
+} 
+
+#add_todo {
+    float: right;
+    position: relative;
+    top: -25px;
+    left: -50px;
+} 
+
+.background_text2 {
+    width: 80%;
+    padding: 10px;
+   position: absolute;
+   top: 30%;
+   left:10%;
+   text-align: center;;
+
+}
